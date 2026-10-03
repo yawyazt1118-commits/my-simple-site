@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ကျွန်ုပ်၏ Website</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            text-align: center;
+            width: 85%;
+            max-width: 320px;
+        }
+        h1 { color: #333; margin-bottom: 10px; }
+        p { color: #666; font-size: 14px; margin-bottom: 20px; }
+        audio { width: 100%; margin-top: 15px; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>မင်္ဂလာပါ! 🎵</h1>
+        <p>ဒီ Website လေးမှာ သီချင်းလည်း ဖွင့်လို့ရပါတယ်။</p>
+        
+        <!-- သီချင်းထည့်ရန် (mysong.mp3 နေရာတွင် ကိုယ့်သီချင်းဖိုင်နာမည် ထည့်ပါ) -->
+        <audio controls>
+            <source src="mysong.mp3" type="audio/mpeg">
+            သင့်ဘရောက်ဆာသည် အသံဖိုင်ကို မထောက်ပံ့ပါ။
+        </audio>
+    </div>
+</body>
+</html>
